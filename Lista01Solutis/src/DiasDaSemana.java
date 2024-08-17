@@ -1,20 +1,31 @@
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class MaiorNumero {
+public class DiasDaSemana {
+
     public static void main(String[] args) {
+        String[] diasSemana = {
+                "Segunda-feira",
+                "Terça-feira",
+                "Quarta-feira",
+                "Quinta-feira",
+                "Sexta-feira",
+                "Sábado",
+                "Domingo"
+        };
 
         Scanner scanner = new Scanner(System.in);
+
         boolean repetirProcesso = true;
 
         while (repetirProcesso){
-            double valor1 = lerValor(scanner, "Digite o primeiro valor: ");
+            System.out.print("Digite um número de 1 a 7: ");
+            int numero = lerValor(scanner);
 
-            double valor2 = lerValor(scanner, "Digite o segundo valor: ");
-
-            double maior = valor1 > valor2 ? valor1 : valor2;
-
-            System.out.println("O maior valor é: " + maior);
+            if (numero >= 1 && numero <= 7) {
+                System.out.println("O dia da semana correspondente é: " + diasSemana[numero - 1]);
+            } else {
+                System.out.println("Número inválido! Por favor, insira um número de 1 a 7.");
+            }
 
             repetirProcesso = desejaRepetir(scanner);
         }
@@ -28,7 +39,7 @@ public class MaiorNumero {
         boolean repetirProcesso = false;
 
         while (!escolhaValida) {
-            System.out.print("Deseja testar de novo? (s/n): ");
+            System.out.print("Deseja repetir o programa? (s/n): ");
             String escolha = scanner.next();
             if (escolha.equalsIgnoreCase("s")) {
                 repetirProcesso = true;
@@ -44,22 +55,12 @@ public class MaiorNumero {
         return repetirProcesso;
     }
 
-    // Método para ler e validar um valor
-    private static double lerValor(Scanner scanner, String nomeValor) {
-        double valor = 0.0;
-        boolean entradaValida = false;
-
-        while (!entradaValida) {
-            try {
-                System.out.print(nomeValor);
-                valor = scanner.nextDouble();
-                entradaValida = true;
-            } catch (InputMismatchException e) {
-                System.out.println("Entrada inválida! Por favor, insira um número.");
-                scanner.next();
-            }
+    // Método para ler e validar um valor inteiro do usuário
+    private static int lerValor(Scanner scanner) {
+        while (!scanner.hasNextInt()) {
+            System.out.println("Entrada inválida! Por favor, insira um número inteiro.");
+            scanner.next();
         }
-
-        return valor;
+        return scanner.nextInt();
     }
 }

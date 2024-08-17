@@ -1,20 +1,18 @@
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class MaiorNumero {
-    public static void main(String[] args) {
+class ConversaoMilhasParaKilometros {
 
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean repetirProcesso = true;
 
         while (repetirProcesso){
-            double valor1 = lerValor(scanner, "Digite o primeiro valor: ");
+            System.out.print("Digite a distância em milhas: ");
+            double milhas = lerValor(scanner);
 
-            double valor2 = lerValor(scanner, "Digite o segundo valor: ");
+            double kilometros = converterMilhasParaKilometros(milhas);
 
-            double maior = valor1 > valor2 ? valor1 : valor2;
-
-            System.out.println("O maior valor é: " + maior);
+            System.out.printf("Distância em quilômetros: %.2f km%n", kilometros);
 
             repetirProcesso = desejaRepetir(scanner);
         }
@@ -28,7 +26,7 @@ public class MaiorNumero {
         boolean repetirProcesso = false;
 
         while (!escolhaValida) {
-            System.out.print("Deseja testar de novo? (s/n): ");
+            System.out.print("Deseja repetir o programa? (s/n): ");
             String escolha = scanner.next();
             if (escolha.equalsIgnoreCase("s")) {
                 repetirProcesso = true;
@@ -44,22 +42,18 @@ public class MaiorNumero {
         return repetirProcesso;
     }
 
-    // Método para ler e validar um valor
-    private static double lerValor(Scanner scanner, String nomeValor) {
-        double valor = 0.0;
-        boolean entradaValida = false;
-
-        while (!entradaValida) {
-            try {
-                System.out.print(nomeValor);
-                valor = scanner.nextDouble();
-                entradaValida = true;
-            } catch (InputMismatchException e) {
-                System.out.println("Entrada inválida! Por favor, insira um número.");
-                scanner.next();
-            }
+    // Método para ler um valor do usuário
+    private static double lerValor(Scanner scanner) {
+        while (!scanner.hasNextDouble()) {
+            System.out.println("Entrada inválida! Por favor, insira um número.");
+            scanner.next(); // Limpa a entrada inválida
         }
+        return scanner.nextDouble();
+    }
 
-        return valor;
+    // Método para converter milhas para quilômetros
+    private static double converterMilhasParaKilometros(double milhas) {
+        final double CONVERSAO = 1.609;
+        return milhas * CONVERSAO;
     }
 }

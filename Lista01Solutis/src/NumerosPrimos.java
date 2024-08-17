@@ -68,7 +68,7 @@ class NumerosPrimos {
         boolean repetirProcesso = false;
 
         while (!escolhaValida) {
-            System.out.print("Deseja realizar outra troca? (s/n): ");
+            System.out.print("Deseja repetir o programa? (s/n): ");
             String escolha = scanner.next();
             if (escolha.equalsIgnoreCase("s")) {
                 repetirProcesso = true;
