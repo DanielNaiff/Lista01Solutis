@@ -17,6 +17,11 @@ public class PalindromoChecker {
         return true;
     }
 
+    // Método para verificar se a entrada contém apenas letras
+    private static boolean contemApenasLetras(String entrada) {
+        return entrada.matches("[a-zA-Z]+");
+    }
+
     // Método para perguntar ao usuário se deseja repetir o processo
     private static boolean desejaRepetir(Scanner scanner) {
         boolean escolhaValida = false;
@@ -48,11 +53,13 @@ public class PalindromoChecker {
             boolean entradaValida = false;
 
             while (!entradaValida) {
-                System.out.print("Digite uma palavra para verificar se é um palíndromo: ");
+                System.out.print("Digite uma palavra para verificar se é um palíndromo (apenas letras): ");
                 palavra = scanner.nextLine().trim();
 
                 if (palavra.isEmpty()) {
                     System.out.println("Entrada inválida! A palavra não pode ser vazia. Por favor, digite uma palavra.");
+                } else if (!contemApenasLetras(palavra)) {
+                    System.out.println("Entrada inválida! A palavra deve conter apenas letras. Por favor, digite uma palavra.");
                 } else {
                     entradaValida = true;
                 }
