@@ -1,4 +1,4 @@
-public class ProdutoImpares {
+public class Questao06_ProdutoImpares {
 
     public static void main(String[] args) {
         int produtoInt = 1;
@@ -11,7 +11,7 @@ public class ProdutoImpares {
         }
 
         for (int i = 15; i <= 30; i++) {
-            if (i % 2 != 0) { // Verifica se o número é ímpar
+            if (i % 2 != 0) {
                 produtoFloat *= i;
             }
         }

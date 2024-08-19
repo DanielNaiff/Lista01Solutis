@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Circulo {
+public class Questao09_Circulo {
 
     public static double calcularArea(double raio) {
         final double PI = Math.PI; // Valor de PI
@@ -9,7 +9,7 @@ public class Circulo {
     }
 
     public static double arredondar(double valor) {
-        return Math.round(valor * 100.0) / 100.0;
+        return Math.round(valor * 10.0) / 10.0;
     }
 
     public static void main(String[] args) {
@@ -37,7 +37,7 @@ public class Circulo {
 
         double areaArredondada = arredondar(area);
 
-        System.out.println("A área do círculo é: " + areaArredondada);
+        System.out.println("A área do círculo arredondada é: " + areaArredondada);
 
         scanner.close();
     }

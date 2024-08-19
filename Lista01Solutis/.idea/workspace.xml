@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c7f6b44-068a-4a01-9cd4-ab14cba71781" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista01Solutis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Circulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConsumoCombustivel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContadorDeCaracteres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConversaoMilhasParaKilometros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiasDaSemana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DivisaoMultiplosDe3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaiorNumero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumerosPrimos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrdenarPalavras.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PalindromoChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProdutoImpares.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ko2PMpxZnv5O3JFJXV1saZxXRG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Circulo.executor": "Run",
+    "Application.ConsumoCombustivel.executor": "Run",
+    "Application.ContadorDeCaracteres.executor": "Run",
+    "Application.ConversaoMilhasParaKilometros.executor": "Run",
+    "Application.DiasDaSemana.executor": "Run",
+    "Application.DivisaoMultiplosDe3.executor": "Run",
+    "Application.MaiorNumero.executor": "Run",
+    "Application.NumerosPrimos.executor": "Run",
+    "Application.OrdenarPalavras.executor": "Run",
+    "Application.PalindromoChecker.executor": "Run",
+    "Application.ProdutoImpares.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/danie/OneDrive/Documents/Lista01Solutis",
+    "onboarding.tips.debug.path": "C:/Users/danie/OneDrive/Documents/Lista01Solutis/Lista01Solutis/src/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\OneDrive\Documents\Lista01Solutis\Lista01Solutis\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ContadorDeCaracteres">
+    <configuration name="Circulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Circulo" />
+      <module name="Lista01Solutis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContadorDeCaracteres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContadorDeCaracteres" />
+      <module name="Lista01Solutis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivisaoMultiplosDe3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DivisaoMultiplosDe3" />
+      <module name="Lista01Solutis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromoChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PalindromoChecker" />
+      <module name="Lista01Solutis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoImpares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProdutoImpares" />
+      <module name="Lista01Solutis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ContadorDeCaracteres" />
+        <item itemvalue="Application.Circulo" />
+        <item itemvalue="Application.PalindromoChecker" />
+        <item itemvalue="Application.DivisaoMultiplosDe3" />
+        <item itemvalue="Application.ProdutoImpares" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c7f6b44-068a-4a01-9cd4-ab14cba71781" name="Changes" comment="" />
+      <created>1723935585593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723935585593</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,4 +1,4 @@
-public class DivisaoMultiplosDe3 {
+public class Questao07_DivisaoMultiplosDe3 {
     public static void main(String[] args) {
         System.out.println("Divisões usando tipo int:");
         for (int i = 1; i <= 100; i++) {

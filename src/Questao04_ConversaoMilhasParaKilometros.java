@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class ConversaoMilhasParaKilometros {
+class Questao04_ConversaoMilhasParaKilometros {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

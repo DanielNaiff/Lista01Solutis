@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DiasDaSemana {
+public class Questao05_DiasDaSemana {
 
     public static void main(String[] args) {
         String[] diasSemana = {

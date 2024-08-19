@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PalindromoChecker {
+public class Questao08_PalindromoChecker {
 
     // Método que verifica se uma palavra é um palíndromo
     public static boolean isPalindromo(String palavra) {

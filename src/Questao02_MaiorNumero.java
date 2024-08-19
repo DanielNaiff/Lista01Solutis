@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class MaiorNumero {
+public class Questao02_MaiorNumero {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

@@ -1,7 +1,6 @@
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ContadorDeCaracteres {
+public class Questao10_ContadorDeCaracteres {
 
     public static void contarCaracteres(String texto) {
         int contagemVogais = 0;
